@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easyship project</title>
+    <link rel="icon" href="./img/Easyship-logo-1.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <link rel="stylesheet" href="./fonts">
+</head>
+<body> 
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg nav-bg fixed-top bg-dark">
+            <div class="container-fluid">
+                <a href="#main-page" class="navbar-brand"><img class="main-logo" src="./img/Easyship-logo-white.png" alt="Logo"></a>
+                <button class="navbar-toggler collapsed navigation-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="nav-container-1 navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center">
+
+                            <a class="nav-item" aria-current="page" href="#page-1">Features</a>
+
+                            <a aria-current="page" href="#page-5">About Us</a>
+
+                            <a aria-current="page" href="#page-6">Brands</a>
+
+                            <a aria-current="page" href="#page-7">Contacts</a>
+
+                            <hr>
+                    </div>
+                    <div class="nav-container-2">
+                        <span class="btn" data-bs-toggle="modal" data-bs-target="#signInModal">Sign In</span>
+                        <span class="btn scale" data-bs-toggle="modal" data-bs-target="#signUpModal">Sign Up</span>
+                        <span class="btn scale" data-bs-toggle="modal" data-bs-target="#signUpModal">Sign Up</span>
+                    </div>
+                </div>
+
+                    <!-- <a href="#page-1">Features</a>
+                    <a href="#page-5">About Us</a>
+                    <a href="#page-6">Brands</a>
+                    <a href="#page-7">Contacts</a> -->
+
+                <!-- <div class="nav-container-2">
+                    <span data-bs-toggle="modal" data-bs-target="#signInModal">sign in</span>
+                    <button class="scale" data-bs-toggle="modal" data-bs-target="#signUpModal">sign up</button>
+                </div> -->
+            </div>
+        </nav>
+
+        <!-- <div class="container-fluid bg-banner">
+        </div> -->
+    </header>
+
+    <main>
+        <div class="container-fluid bg-banner" id="main-page">
+            <div class="row text-img-container">
+                <div class="col-5 col-md-12 text-container">
+                    <h1>
+                        Powerful Shipping <br> Software
+                    </h1>
+                    <p>
+                        The cloud shipping software of choice for growing businesses. Access exclusive, pre-negotiated shipping rates up to 91% off with a tracking experience customers love.
+                    </p>
+                    <button class="scale" data-bs-toggle="modal" data-bs-target="#signUpModal">Get started for free</button>
+                </div>
+
+                <div class="col-6 image-container">
+                    <div class="delivery-companies-img scale" id="delivery-companies-img-id">
+                        <img src="./img/img_first_1.jpg" alt="tnt">
+                        <img src="./img/img_first_2.jpg" alt="upg">
+                        <img src="./img/img_first_3.jpg" alt="dhl">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid second-page" id="page-1">
+            <div class="row">
+                <div class="col-6 box-img cards-animation">
+                    <img class="box-img-img" src="./img/img_box.png" alt="box">
+                </div>
+                <div class="col-5 text-container-1">
+                    <h1>
+                        Never Waste Time on <br> Shipping Again
+                    </h1>
+                    <p>
+                        Stop overpaying for shipping. Easyship rates remain unbeaten and are available to everybody worldwide. See how you can save up to 91% on top couriers. With 250+ courier services from USPS, UPS, DHL and more, we have the right courier for your needs. See available couriers and shipping rates.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-banner-1" id="page-2">
+            <div class="row text-img-container">
+                <div class="col-5 text-container">
+                    <h1>
+                        Easyship is Built for <br> Your Business
+                    </h1>
+                    <p>
+                        The cloud shipping software of choice for growing businesses. Access exclusive, pre-negotiated shipping rates up to 91% off with a tracking experience customers love.
+                    </p>
+                </div>
+
+                <div class="col-5 image-container-1 cards-animation-1">
+                    <img src="./img/truck-transportation-1.jpg" alt="truck">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-banner-2" id="page-3">
+            <div class="row">
+                <div class="col-6 globe-container">
+                    <div class="globe scale">
+                        <div class="globe-sphere"></div>
+                        <div class="globe-outer-shadow"></div>
+                        <div class="globe-worldmap">
+                            <div class="globe-worldmap-back"></div>
+                            <div class="globe-worldmap-front"></div>
+                        </div>
+                        <div class="globe-inner-shadow"></div>
+                    </div>
+                </div>
+                <div class="col-5 text-container-1">
+                    <h1>
+                        Access Our Network of <br> Global Warehouses
+                    </h1>
+                    <p>
+                        Improving transit times, lowering shipping costs, and reducing tariff exposure has never been easier than with our global network of 3PL partners. Our shipping consultants will tailor a fulfillment strategy perfect for your business.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia cupiditate sapiente nesciunt amet dolorum itaque fuga voluptate eos cum similique?
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-banner-3" id="page-4">
+            <div class="row">
+                <div class="col-5 text-img-container text-container">
+                    <h1>
+                        Delight Your <br> Customers
+                    </h1>
+                    <p>
+                        Exceed your customer’s expectations with a curated delivery experience. Keep your customers informed with shipment tracking pages and emails that match your branding, and customized packing slips for a personal touch.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, soluta.
+                    </p>
+                </div>
+                <div class="col-5 bg-unpacking">
+                    <img class="scale" src="./img/img_unbox.png" alt="unboxing">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid second-page" id="page-5">
+            <div class="row">
+                <div class="col-6 image-container-3 cards-animation-2">
+                    <img src="./img/truck-transportation.jpg" alt="box">
+                </div>
+                <div class="col-5 text-container-2">
+                    <h1>
+                        About Us
+                    </h1>
+                    <p>
+                        Improving transit times, lowering shipping costs, and reducing tariff exposure has never been easier than with our global network of 3PL partners. Our shipping consultants will tailor a fulfillment strategy perfect for your business.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-banner-4 brands" id="page-6">
+            <div class="row">
+                <div class="col-12 text-container-3">
+                    <h1>Brands</h1>
+                </div>
+            </div>
+            <div class="row brand-block">
+                <div class="col-12 col-sm-12 col-md-4 col-xl-4 brand-block-inner d-flex flex-wrap">
+                    <div class="col-6 brand-block-inner-1 brand-all brand-1 scale">
+                        <a href="https://www.apple.com/" target="_blank"><img src="./img/logo-brands/Apple.png" alt="apple"></a>
+                    </div>
+                    <div class="col-6 brand-block-inner-2 brand-all brand-2 scale">
+                        <a href="https://www.apple.com/" target="_blank"><img src="./img/logo-brands/Asus.png" alt="asus"></a>
+                    </div>
+                    <div class="col-6 brand-block-inner-2 brand-all brand-3 scale">
+                        <a href="https://www.apple.com/" target="_blank"><img src="./img/logo-brands/Bershka.png" alt="bershka"></a>
+                    </div>
+                    <div class="col-6 brand-block-inner-1 brand-all brand-4 scale">
+                        <a href="https://www.apple.com/" target="_blank"><img src="./img/logo-brands/Ikea.png" alt="ikea"></a>
+                    </div>
+                </div>
+
+                <div class="col-10 col-sm-10 col-md-4 col-xl-4 brand-block-middle scale">
+                    <h1>Thousands of Brands <br> Trust Us</h1>
+                    <p>See how our technology has helped businesses grow their sales while lowering costs.</p>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-xl-4 brand-block-inner d-flex flex-wrap">
+                    <div class="col-6 brand-block-inner-3 brand-all brand-5 scale">
+                        <img src="./img/logo-brands/Nike.png" alt="nike">
+                    </div>
+                    <div class="col-6 brand-block-inner-4 brand-all brand-6 scale">
+                        <img src="./img/logo-brands/Rolex.png" alt="rolex">
+                    </div>
+                    <div class="col-6 brand-block-inner-2 brand-all brand-7 scale">
+                        <img src="./img/logo-brands/Versace.png" alt="versace">
+                    </div>
+                    <div class="col-6 brand-block-inner-5 brand-all brand-8 scale">
+                        <p>& Many More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="page-7">
+        <div class="main-footer d-flex justify-content-center">
+            <img src="./img/Easyship-logo-white.png" alt="Logo">
+        </div>
+        <div class="main-footer-1">
+            <p class="text-center">Contact Us</p>
+            <p class="text-center">323 Denison Street, Unit 2, Markham,<br> ONTARIO L3R1B07 TORONTO <br> tel: +1 905 445 6678 <br> e-mail: easyship@mail.ca</p>
+        </div>
+        <div class="icons-bootstrap d-flex flex-row">
+            <a href="https://www.instagram.com/kevin/" target="_blank"><h1><i class="bi bi-instagram"></i></h1></a>
+            <a href="https://www.facebook.com/zuck/" target="_blank"><h1><i class="bi bi-facebook"></i></h1></a>
+            <a href="https://www.youtube.com/user/jawed" target="_blank"><h1><i class="bi bi-youtube"></i></h1></a>
+            <a href="https://twitter.com/Jack" target="_blank"><h1><i class="bi bi-twitter"></i></h1></a>
+        </div>
+        <div class="lower-part">
+            <p>Terms of Service  |  Privacy Policy  |  Vulnerability Disclosure Policy</p>
+            <hr>
+            <p>Copyright Easyship Inc. © 2022</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+
+    <!-- signIn -->
+
+    <form class="modal fade needs-validation" novalidate id="signInModal" tabindex="-1" aria-labelledby="signInModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1 class="modal-title" id="signInModalLabel">Sign In</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="inputEmail1" class="form-label fs-3">Email address</label>
+                            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+                            <div class="valid-feedback">
+                                Correct
+                            </div>
+                            <div class="invalid-feedback">
+                                Invalid value
+                            </div>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputPassword1" class="form-label fs-3">Password</label>
+                            <input type="password" class="form-control" id="inputPassword1" placeholder="Password" required>
+                            <div class="valid-feedback">
+                                Correct
+                            </div>
+                            <div class="invalid-feedback">
+                                Invalid value
+                            </div>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="check1">
+                            <label class="form-check-label" for="check1">Remember Me</label>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer needs-validation">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-success text-white">Sign In</button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+    <!-- signUp -->
+    
+    <form class="modal fade needs-validation" novalidate id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1 class="modal-title" id="signUpModalLabel">Sign Up</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="inputEmail1" class="form-label fs-3">Email address</label>
+                            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+                            <div class="valid-feedback">
+                                Correct
+                            </div>
+                            <div class="invalid-feedback">
+                                Invalid value
+                            </div>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputPassword1" class="form-label fs-3">Password</label>
+                            <input type="password" class="form-control" id="inputPassword1" placeholder="Password" required>
+                            <div class="valid-feedback">
+                                Correct
+                            </div>
+                            <div class="invalid-feedback">
+                                Invalid value
+                            </div>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="check1">
+                            <label class="form-check-label" for="check1">Remember Me</label>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-success text-white">Sign Up</button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script/js.js"></script>
+</body>
+</html>

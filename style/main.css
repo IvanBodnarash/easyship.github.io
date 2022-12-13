@@ -1,0 +1,582 @@
+@font-face {
+    font-family: 'GeosansLight';
+    src: url(../fonts/GeosansLight.ttf);
+}
+
+body {
+    font-family: 'GeosansLight', sans-serif;
+    font-weight: 400;
+}
+
+/* NAVIGATION */
+
+hr {
+    height: 2px;
+    color: #fff;
+}
+
+.main-logo {
+    height: 35px;
+    padding-left: 50px;
+}
+
+/* .nav-bg {
+    height: 90px;
+    background-color: #1E1E1E;
+} */
+
+.nav-container-1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.nav-container-1 a:hover {
+    color: #8876bb;
+}
+
+.nav-container-2 span {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.nav-container-2 span:nth-child(1):hover {
+    color: #8876bb;
+    cursor: pointer;
+}
+
+.nav-container-2 span:nth-child(2) {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #5C507D;
+}
+
+.nav-container-2 span:nth-child(2):hover,
+.nav-container-2 span:nth-child(3):hover {
+    background-color: #7f70ab;
+}
+
+/* BACKGROUND */
+
+.bg-banner,
+.bg-banner-3 {
+    background-image: url(../img/background.jpg);
+    height: 640px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-banner-3 {
+    background-image: url(../img/background-1.jpg);
+}
+
+/* MAIN */
+
+.text-img-container {
+    padding-top: 90px;
+}
+
+.text-container {
+    width: 40%;
+    color: white;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.text-container h1 {
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.text-container p {
+    font-size: 24px;
+}
+
+.text-container button {
+    margin-top: 20px;
+    width: 320px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #5C507D;
+    color: white;
+}
+
+.text-container button:hover {
+    background-color: #7f70ab;
+}
+
+.delivery-companies-img {
+    margin: 0;
+    padding: 0;
+    right: 0;
+    margin-top: 75px;
+    height: 400px;
+    background-image: url(../img/img_first.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.delivery-companies-img img {
+    height: 40px;
+    margin-bottom: 30px;
+    margin-left: 115px;
+    transition: filter .4s ease-in-out;
+}
+
+.delivery-companies-img:nth-child(1) {
+    padding-top: 130px;
+}
+
+.delivery-companies-img img:nth-child(2) {
+    margin-top: 15px;
+}
+
+.delivery-companies-img img:nth-child(3) {
+    margin-top: 15px;
+}
+
+.delivery-companies-img img:hover {
+    /* transition: 0.5s; */
+    filter: brightness(50%);
+}
+
+/* MAIN1 */
+
+.second-page {
+    height: 640px;
+    background: linear-gradient(to top right, #fff, rgb(227, 227, 227));
+}
+
+.box-img img {
+    margin: 180px 100px 0;
+    height: 320px;
+    filter: drop-shadow(0 0 5px);
+}
+
+.text-container-1,
+.text-container-2 {
+    margin-right: 100px;
+    margin-top: 120px;
+}
+
+.text-container-2 {
+    margin-top: 180px;
+}
+
+.text-container-3 h1 {
+    text-align: center;
+    margin-top: 130px;
+    color: #5C507D;
+    font-size: 48px;
+}
+
+.text-container-1 h1, 
+.text-container-2 h1 {
+    color: #5C507D;
+    font-size: 48px;
+    margin-bottom: 60px;
+    text-align: end;
+}
+
+.text-container-1 p, 
+.text-container-2 p {
+    color: #3D3750;
+    font-size: 24px;
+    text-align: end;
+}
+
+/* MAIN2 */
+
+.bg-banner-1 {
+    background-image: url(../img/background.jpg);
+    height: 640px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-container-1 img, 
+.image-container-2 img, 
+.image-container-3 img {
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 50px;
+    filter: grayscale(80%);
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+
+.image-container-2 img,
+.image-container-3 img {
+    margin-top: 180px;
+}
+
+/* MAIN3 */
+
+.bg-banner-2 {
+    background-image: url(../img/world_map.png);
+    height: 640px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+/* Globe */
+
+.globe-container,
+.globe {
+    width: 200px;
+    height: 200px;
+    /* background-color: #848484; */
+}
+
+.globe-container {
+    margin-top: 270px;
+    margin-left: 200px;
+    margin-right: 280px;
+
+    position: relative;
+    display: inline-block;
+    /* margin: 30px; */
+    transform: scale(1.8);
+}
+
+.globe {
+    position: relative;
+    display: block;
+    /* margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0; */
+}
+
+.globe-worldmap,
+.globe-worldmap-front,
+.globe-worldmap-back,
+.globe-sphere,
+.globe-outer-shadow,
+.globe-inner-shadow {
+    position: absolute;
+    display: block;
+    margin: 0;
+}
+
+.globe-sphere {
+    background-image: url(../svg/sphere-1.svg);
+}
+
+.globe-sphere,
+.globe-outer-shadow,
+.globe-inner-shadow {
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.globe-worldmap {
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.globe-worldmap-front,
+.globe-worldmap-back {
+    left: 0;
+    top: 0;
+    width: 1000px;
+    height: 200px;
+    overflow: visible;
+    background-image: url(../svg/worldmap.svg);
+    background-repeat: no-repeat;
+}
+
+.globe-outer-shadow {
+    left: 0;
+    top: 186px;
+    width: 200px;
+    height: 30px;
+    background-image: url(../svg/outer_shadow.svg);
+}
+
+.globe-inner-shadow {
+    background-image: url(../svg/inner_shadow-1.svg);
+}
+
+.globe-worldmap-front {
+    background-position: 0 0;
+    animation: textureSpinreverse 15s linear infinite;
+}
+
+.globe-worldmap-back {
+    background-position: 0 -220px;
+    animation: textureSpin 15s linear infinite;
+}
+
+@keyframes textureSpin {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-47.5%);
+    }
+}
+@keyframes textureSpinreverse {
+    from {
+        transform: translateX(-47.5%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* MAIN4 */
+
+.bg-banner-3 {
+    background-image: url(../img/background.jpg);
+    height: 640px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-banner-4 {
+    background-image: url(../img/background-1.jpg);
+    height: 640px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-unpacking img {
+    /* background-image: url(../img/img_unbox.png); */
+    /* background-size: 600px;
+    background-repeat: no-repeat; */
+    /* padding: 0;
+    margin: 0; */
+    height: 640px;
+    position: absolute;
+    right: 0;
+    /* opacity: 80%; */
+    filter: brightness(50%);
+}
+
+/* MAIN5 */
+
+.brand-block {
+    margin-top: 40px;
+    height: 340px;
+}
+
+.brand-block-inner {
+    padding: 0;
+    background-color: #1E1E1E;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px #000;
+}
+
+/* .brand-properties {
+    background-color: #7f70ab;
+} */
+
+.brand-all {
+    /* width: 50%; */
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #5C507D; */
+}
+
+.brand-1 {
+    background-image: url(../img/logo-brands/Brand-block/Apple-brand-block.jpg);
+}
+
+.brand-2 {
+    background-image: url(../img/logo-brands/Brand-block/Asus-brand-block.jpg);
+}
+
+.brand-3 {
+    background-image: url(../img/logo-brands/Brand-block/Bershka-brand-block.jpg);
+}
+
+.brand-4 {
+    background-image: url(../img/logo-brands/Brand-block/Ikea-brand-block.jpg);
+}
+
+.brand-block-inner-1 img {
+    height: 60px;
+}
+
+.brand-block-inner-2 img {
+    height: 25px;
+}
+
+.brand-block-middle {
+    padding: 30px;
+    color: white;
+    background-color: #2D273F;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #000;
+}
+
+.brand-block-middle h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+
+}
+
+.brand-block-middle p {
+    font-size: 30px;
+}
+
+
+.brand-5 {
+    background-image: url(../img/logo-brands/Brand-block/Nike-brand-block.jpg);
+}
+
+.brand-6 {
+    background-image: url(../img/logo-brands/Brand-block/Rolex-brand-block.jpg);
+}
+
+.brand-7 {
+    background-image: url(../img/logo-brands/Brand-block/Versace-brand-block.jpg);
+}
+
+.brand-8 {
+    background-image: url(../img/logo-brands/Brand-block/Stradivarius-brand-block.jpg);
+}
+
+.brand-block-inner-3 img {
+    height: 55px;
+}
+
+.brand-block-inner-4 img {
+    height: 60px;
+}
+
+.brand-block-inner-5 p {
+    justify-items: center;
+    color: #fff;
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #2D273F;
+    height: 400px;
+}
+
+.main-footer-1 {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.main-footer-1 p:nth-child(1) {
+    font-size: 20px;
+}
+
+.main-footer img {
+    margin-top: 50px;
+    height: 30px;
+}
+
+.icons-bootstrap {
+    margin-left: 20px;
+    color: #fff;
+    justify-content: center;
+}
+
+.icons-bootstrap a {
+    color: #fff;
+}
+
+.icons-bootstrap h1:hover {
+    color: #7f70ab;
+}
+
+.icons-bootstrap h1 {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.lower-part {
+    color: #fff;
+    text-align: center;
+}
+
+.lower-part hr {
+    width: 90%;
+    margin: auto;
+}
+
+.lower-part p:nth-child(3) {
+    padding-top: 15px;
+}
+
+.cards-animation img:hover {
+    filter: drop-shadow(0 0 15px);
+    transform: translate3d(-7px);
+    transition: all 3s ease-in;
+}
+
+.cards-animation img:not(hover) {
+    transform: translate3d(7px);
+    transition: all .2s ease-out;
+}
+
+.cards-animation img:hover {
+    filter: drop-shadow(7px 10px 5px rgb(103, 103, 103));
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all .3s ease;
+}
+
+.cards-animation-1 img:hover {
+    box-shadow: 8px 8px #8876bb;
+    transform: translateX(-8px);
+    transition: all .3s ease-in;
+}
+
+.cards-animation-1 img:not(hover),
+.cards-animation-2 img:not(hover) {
+    transition: all .2s ease-out;
+}
+
+.cards-animation-2 img:hover {
+    box-shadow: -8px -8px #8876bb;
+    transform: translateX(8px);
+    transition: all .3s ease-in;
+}
+
+.scale,
+.scale img {
+    transition: .3s;
+}
+
+.scale:hover,
+.scale img:hover {
+    transform: scale(1.05);
+}
