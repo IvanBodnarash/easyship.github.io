@@ -290,7 +290,7 @@ hr {
     width: 200px;
     height: 200px;
     overflow: hidden;
-    border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
 
 .globe-worldmap-front,
