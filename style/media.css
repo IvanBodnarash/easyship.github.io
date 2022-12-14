@@ -34,7 +34,7 @@
 
     .globe-worldmap {
         overflow: hidden;
-        border-radius: 50%;
+        -webkit-border-radius: 50%;
     }
 }
 
@@ -121,7 +121,7 @@
 
     .globe-worldmap {
         overflow: hidden;
-        border-radius: 50%;
+        -webkit-border-radius: 50%;
     }
 
     .globe-container {
@@ -314,7 +314,7 @@
 
     .globe-worldmap {
         overflow: hidden;
-        border-radius: 50%;
+        -webkit-border-radius: 50%;
     }
 
     .globe-container {
@@ -455,7 +455,7 @@
 
     .globe-worldmap {
         overflow: hidden;
-        border-radius: 50%;
+        -webkit-border-radius: 50%;
     }
 
     .globe-container {
@@ -620,7 +620,7 @@
 
     .globe-worldmap {
         overflow: hidden;
-        border-radius: 50%;
+        -webkit-border-radius: 50%;
     }
 
     .globe-container {
@@ -1095,7 +1095,7 @@
 
     .globe-worldmap {
         overflow: hidden;
-        border-radius: 50%;
+        -webkit-border-radius: 50%;
     }
 
     .globe-container {
@@ -1372,7 +1372,7 @@
 
     .globe-worldmap {
         overflow: hidden;
-        border-radius: 50%;
+        -webkit-border-radius: 50%;
     }
 
     .globe-container {
