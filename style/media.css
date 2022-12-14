@@ -31,6 +31,10 @@
             -ms-transform: scale(1.6);
                 transform: scale(1.6);
     }
+
+    .globe-worldmap {
+        overflow: hidden;
+    }
 }
 
 @media only screen and (max-width : 1237px) {
@@ -112,6 +116,10 @@
         width: 200px;
         height: 200px;
         /* background-color: #848484; */
+    }
+
+    .globe-worldmap {
+        overflow: hidden;
     }
 
     .globe-container {
@@ -302,6 +310,10 @@
         /* background-color: #848484; */
     }
 
+    .globe-worldmap {
+        overflow: hidden;
+    }
+
     .globe-container {
         margin: auto;
         margin-left: auto;
@@ -436,6 +448,10 @@
         width: 200px;
         height: 200px;
         /* background-color: #848484; */
+    }
+
+    .globe-worldmap {
+        overflow: hidden;
     }
 
     .globe-container {
@@ -596,6 +612,10 @@
         width: 200px;
         height: 200px;
         /* background-color: #848484; */
+    }
+
+    .globe-worldmap {
+        overflow: hidden;
     }
 
     .globe-container {
@@ -1068,6 +1088,10 @@
         /* background-color: #848484; */
     }
 
+    .globe-worldmap {
+        overflow: hidden;
+    }
+
     .globe-container {
         margin-top: 50px;
         margin-left: auto;
@@ -1338,6 +1362,10 @@
         width: 200px;
         height: 200px;
         /* background-color: #848484; */
+    }
+
+    .globe-worldmap {
+        overflow: hidden;
     }
 
     .globe-container {
