@@ -271,6 +271,8 @@ hr {
 
 .globe-sphere {
     background-image: url(../svg/sphere-1.svg);
+    z-index: 999;
+    mask-size: cover;
 }
 
 .globe-sphere,
@@ -289,8 +291,8 @@ hr {
     top: 0;
     width: 200px;
     height: 200px;
-    overflow: hidden;
     -webkit-border-radius: 50%;
+    overflow: hidden;
 }
 
 .globe-worldmap-front,
@@ -299,7 +301,9 @@ hr {
     top: 0;
     width: 1000px;
     height: 200px;
-    overflow: visible;
+    /* overflow: visible; */
+    -webkit-border-radius: 50%;
+    overflow: hidden;
     background-image: url(../svg/worldmap.svg);
     background-repeat: no-repeat;
 }
@@ -319,6 +323,7 @@ hr {
 .globe-worldmap-front {
     background-position: 0 0;
     animation: textureSpinreverse 15s linear infinite;
+    overflow: hidden;
 }
 
 .globe-worldmap-back {
