@@ -263,6 +263,7 @@ hr {
     position: absolute;
     display: block;
     margin: 0;
+
 }
 
 .globe-sphere {
@@ -317,7 +318,6 @@ hr {
 .globe-worldmap-front {
     background-position: 0 0;
     animation: textureSpinreverse 15s linear infinite;
-    overflow: hidden;
 }
 
 .globe-worldmap-back {
