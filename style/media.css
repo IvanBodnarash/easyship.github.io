@@ -1372,7 +1372,7 @@
 
     .globe-worldmap {
         overflow: hidden;
-        -webkit-border-radius: 50%;
+        -webkit-border-radius: 500px;
     }
 
     .globe-container {

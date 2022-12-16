@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Globe */
+
+        .globe-container,
+        .globe {
+            width: 200px;
+            height: 200px;
+            /* background-color: #848484; */
+        }
+
+        .globe-container {
+            margin-top: 270px;
+            margin-left: 200px;
+            margin-right: 280px;
+
+            position: relative;
+            display: inline-block;
+            /* margin: 30px; */
+            transform: scale(1.8);
+        }
+
+        .globe {
+            position: relative;
+            display: block;
+            /* margin: 0;
+            padding: 0;
+            top: 0;
+            left: 0; */
+        }
+
+        .globe-worldmap,
+        .globe-worldmap-front,
+        .globe-worldmap-back,
+        .globe-sphere,
+        .globe-outer-shadow,
+        .globe-inner-shadow {
+            position: absolute;
+            display: block;
+            margin: 0;
+        }
+
+        .globe-sphere {
+            background-image: url(../svg/sphere-1.svg);
+            z-index: 999;
+            mask-size: cover;
+        }
+
+        .globe-sphere,
+        .globe-outer-shadow,
+        .globe-inner-shadow {
+            left: 0;
+            top: 0;
+            width: 200px;
+            height: 200px;
+            background-position: 0 0;
+            background-repeat: no-repeat;
+        }
+
+        .globe-worldmap {
+            left: 0;
+            top: 0;
+            width: 200px;
+            height: 200px;
+            -webkit-border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .globe-worldmap-front,
+        .globe-worldmap-back {
+            left: 0;
+            top: 0;
+            width: 1000px;
+            height: 200px;
+            /* overflow: visible; */
+            overflow: hidden;
+            background-image: url(../svg/worldmap.svg);
+            background-repeat: no-repeat;
+        }
+
+        .globe-outer-shadow {
+            left: 0;
+            top: 186px;
+            width: 200px;
+            height: 30px;
+            background-image: url(../svg/outer_shadow.svg);
+        }
+
+        .globe-inner-shadow {
+            background-image: url(../svg/inner_shadow-1.svg);
+        }
+
+        .globe-worldmap-front {
+            background-position: 0 0;
+            animation: textureSpinreverse 15s linear infinite;
+        }
+
+        .globe-worldmap-back {
+            background-position: 0 -220px;
+            animation: textureSpin 15s linear infinite;
+        }
+
+        @keyframes textureSpin {
+        from {
+        transform: translateX(0);
+        }
+        to {
+        transform: translateX(-47.5%);
+        }
+        }
+        @keyframes textureSpinreverse {
+        from {
+        transform: translateX(-47.5%);
+        }
+        to {
+        transform: translateX(0);
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="globe-container">
+        <div class="globe scale">
+            <div class="globe-sphere">
+                <div class="globe-worldmap">
+                    <div class="globe-worldmap-back"></div>
+                    <div class="globe-worldmap-front"></div>
+                </div>
+                <div class="globe-inner-shadow"></div>
+            </div>
+            <div class="globe-outer-shadow"></div>
+        </div>
+    </div>
+</body>
+</html>
